@@ -1,16 +1,16 @@
-.class-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-    border: 1px solid green;
+.App {
+  text-align: center;
+  background-color: #111;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
 }
 
-.try-on {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid blue;
+.title {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
 }

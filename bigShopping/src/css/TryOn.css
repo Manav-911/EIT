@@ -1,0 +1,48 @@
+.tryon-container {
+  background: #111;
+  color: #fff;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.stage {
+  position: relative;
+  display: inline-block;
+  /* mirror BOTH video and canvas together so they stay in sync */
+  transform: scaleX(-1);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* video */
+.video {
+  display: block;
+  width: min(90vw, 800px);
+  height: auto;
+}
+
+/* overlay canvas sits on top, same size as video */
+.overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* little status text */
+.status {
+  opacity: 0.8;
+  font-size: 0.95rem;
+}

@@ -1,21 +1,7 @@
-import React from 'react';
-import { useState } from 'react'
-import Webcam from 'react-webcam';
-import './css/App.css'
-import  {TryOn}  from './components/try-on.jsx';
-import  {Camera} from './components/camera.jsx';
+import React from "react";
+import TryOn from "./components/TryOn";
+import "./css/TryOn.css"; // bring styles in
 
-export default function MyApp() {
-  const [showCamera, setShowCamera] = useState(false);
-
-  return (
-    <div className='class-container'>
-      {showCamera ? (
-        <Camera/>
-      ) : (
-        <TryOn onTryOn = {() => setShowCamera(true)} />
-      )}
-    </div>
-  );
-}
-
+export default function App() {
+  return <TryOn />;
+  }
