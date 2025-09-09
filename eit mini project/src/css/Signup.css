@@ -1,0 +1,56 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url('design.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.maindiv{
+    background-color: white;
+    height: 50vh;
+    width: 20%;
+    border:4px solid black;
+    border-radius: 20px;
+    margin-bottom: 11%;
+}
+
+.textcomps{
+    width: 95%;
+    margin-top: 5%;
+    padding-left: 5%;
+}
+
+.inputboxes{
+    width: 90%;
+    height: 5vh;
+    border: 2px solid black;
+    margin-top: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.texts{
+    margin-bottom: 1px;
+}
+
+.buttoncss{
+    width: 40%;
+    height: 5vh;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.line{
+    background-color: black;
+    width: 90%;
+    height: 3px;
+    display: block;
+    margin: 0 auto;
+}
